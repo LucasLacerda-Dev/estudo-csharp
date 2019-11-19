@@ -19,10 +19,10 @@ namespace ResultadoAlunos
 
             Console.WriteLine("\nNota Final: {0:F2}", a.NotaFinal());
             if(a.Aprovado())
-                Console.WriteLine("Aprovado");
+                Console.WriteLine("Aprovado!");
             else
             {
-                Console.WriteLine("Reprovado");
+                Console.WriteLine("Reprovado!");
                 Console.WriteLine("Faltou {0:F2} pontos", a.PontosNecessarios());
             }
 
